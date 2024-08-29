@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gharniyas - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <img id="profile-pic" src="myphoto.png" alt="Profile Picture" />
+      <img id="banner" src="header.png" alt="Banner Image" />
+      <div id="banner_content">
+        <h1 style="color: aliceblue">Gharniyas Ramesh</h1>
+        <h2 style="color: aliceblue">
+          Coding Enthusiast and Electrical Engineer
+        </h2>
+        <h2>
+          <i class="fas fa-file-pdf"></i>
+          <a href="Gharniyas_CV.pdf" download="GharniyasRamesh_Resume.pdf"
+            >my resume</a
+          >
+        </h2>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <a class="scroll-button" onclick="scrollToSection('about')">
+          <i class="fas fa-home"></i>About
+        </a>
+        <a class="scroll-button" onclick="scrollToSection('work')">
+          <i class="fas fa-laptop-code"></i>Work Experience
+        </a>
+        <a class="scroll-button" onclick="scrollToSection('achievements')">
+          <i class="fas fa-trophy"></i>Trophies
+        </a>
+        <a class="scroll-button" onclick="scrollToSection('projects')">
+          <i class="fas fa-laptop-code"></i>Projects
+        </a>
+        <a class="scroll-button" onclick="scrollToSection('experience')">
+          <i class="fas fa-briefcase"></i>Timeline
+        </a>
+        <a class="scroll-button" onclick="scrollToSection('contact')">
+          <i class="fas fa-envelope"></i>Contact
+        </a>
+        <a class="dark-mode-toggle" onclick="toggleDarkMode()">
+          <i class="fas fa-paint-brush"></i>Themes
+        </a>
+      </ul>
+    </nav>
+
+    <section id="about" class="ml-lg-5">
+      <h2>About Me</h2>
+      <hr />
+      <p>
+        Hello, I'm Gharniyas, a recent graduate from Sri Ramakrishna Engineering
+        College in Coimbatore, where I completed my degree in Electrical and
+        Electronics Engineering in 2023. I'm a passionate programming enthusiast
+        with a strong interest in web development, as well as a deep passion for
+        technology. I've also earned a reputation as a resilient person who can
+        tackle challenges head-on. In addition to my technical pursuits, During
+        my internship as a Front-end Developer at AMPCOME Technology in
+        Bengaluru, I worked on MyCenta, a platform designed for educators to
+        enhance their professional skills. I was responsible for integrating
+        REST and GraphQL APIs, implementing performance improvements such as
+        infinite scrolling and pagination, and optimizing state management using
+        Redux, Redux Toolkit, and Zustand. Additionally, I developed responsive
+        screens, improved the user experience with reusable components, and
+        resolved application bugs by debugging various issues. My work on a
+        Next.js application included SEO enhancements, which optimized the
+        platform’s visibility and performance. Join me on my journey as I
+        navigate through college and pursue my interests in technology, media,
+        and finance. My expertise extends to
+        C,HTML,CSS,JavaScript,TypeScript,React,Tailwind CSS,vite+react,Next
+        js,Node js,Redux,Zustand,GraphQL,RestAPI,Tanstack
+        Query,Hasura,MySQL,Postgresql,Antd,HeadLess UI,rsuite and version
+        control systems like Github and Git.
+      </p>
+
+      <h3>Language Proficiency:</h3>
+      <hr />
+      <p>
+        Fluent in Tamil ,kanada and English, I communicate effectively in
+        diverse environments.
+      </p>
+    </section>
+    <section id="work" class="ml-lg-5">
+      <h2>Work Experience</h2>
+      <hr />
+      <h3>Front-end Developer (Intern)</h3>
+      <h3>AMPCOME Technology, Bengaluru (Mar 2024 - Present) *</h3>
+      <p>Project: <a href="https://centa.org/">MyCENTA</a></p>
+      <p>
+        It is a platform designed for teachers, offering a variety of services
+        aimed at enhancing their professional skills. The platform is primarily
+        focuses on Assessments, Training & Development, certification, career
+        growth.
+      </p>
+      <ul>
+        <i class="fas fa-check-circle"></i>
+        Integrated REST and GraphQL APIs based on requirements.<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Implemented performance improvements using methods like infinite
+        scrolling, pagination, and custom hooks.<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Developed a Next.js application with SEO improvements and
+        optimizations.<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Developed responsive screens and enhanced user experience with reusable
+        components.<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Optimized performance and state management using Redux, Redux Toolkit,
+        and Zustand.<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Resolved various bugs by debugging issues across the application.<br /><br />
+      </ul>
+    </section>
+
+    <section id="achievements" class="ml-lg-5">
+      <h2>Achievements</h2>
+      <hr />
+      <ul>
+        <i class="fas fa-check-circle"></i>
+        L&T TECHGIUM PROJECT & NASSCOM TECK second round<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Completed TVSTS virtual internship in Motors & Drives for EV<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Executive Member in EDC and EEETA clubs<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Joint secretary in REC club<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Secretary in REC club<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Engaged in Installation of Solar pv course in progen energy
+        solutions.<br /><br />
+        <i class="fas fa-check-circle"></i>
+        Energy management and audit course in Econ energy concepts<br /><br />
+      </ul>
+    </section>
+
+    <section id="projects" class="ml-lg-5">
+      <h2>Projects</h2>
+      <hr />
+
+      <div class="content-container">
+        <div class="section-container">
+          <h2>Core_Projects</h2>
+          <hr />
+          <div class="project-box">
+            <div class="project">
+              <h3>Project I: AUTOMATIC HEADLIGHTS CONTROL</h3>
+              <p>
+                At night, it automatically adjusts the headlights of other
+                vehicles to prevent accidents. components used: LDR sensor,
+                potentiometer, driver circuit, dim dip control. and LED,IC555.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-container">
+          <div class="project-box">
+            <div class="project">
+              <h3>Project II: WIRE THEFT PREVENTION SYSTEM</h3>
+              <p>
+                It is employed to deter wire theft in agricultural fields.
+                components used: 6v relay, transformer, buzzer, arduino nano,
+                capacitor, resistor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-container">
+          <div class="project-box">
+            <div class="project">
+              <h3>Project III: SMART MIRROR</h3>
+              <p>
+                A futuristic connected world where mirrors display news,
+                temperature, weather, and more as we groom. components used:
+                Raspberry pi 3 model B, display 3.5 inch, IR frame ,two way
+                glass mirror 3.5 inch .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-container">
+          <div class="project-box">
+            <div class="project">
+              <h3>Project IV: GENERATING ELECTRICITY USING WASTE MATERIALS</h3>
+              <p>
+                Delivering sustainability through eco-friendly energy
+                production, waste reduction, and carbon footprint reduction via
+                incineration and heating panel . components used:6v heating
+                panel, 4v water pump motor with a water tank.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-container">
+          <h2>Software_projects</h2>
+          <hr />
+          <div class="project-box">
+            <div class="project">
+              <ul>
+                <li><h3>Portfolio</h3></li>
+                <li><h3>Netflix Clone</h3></li>
+                <li><h3>Todo list</h3></li>
+                <li><h3>Shopping platform</h3></li>
+                <li><h3>Analog clock</h3></li>
+                <li><h3>FD calculator</h3></li>
+                <li><h3>Restaurant website</h3></li>
+                <li><h3>EB bill Calculator</h3></li>
+                <li><h3>Clock</h3></li>
+                <li><h3>Simple calculator</h3></li>
+                <li><h3>Converter</h3></li>
+                <li><h3>Forms</h3></li>
+                <li><h3>TicTacToe</h3></li>
+                <li><h3>Rock,Paper,Scissor</h3></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="ml-lg-5">
+      <h2>Education</h2>
+      <hr />
+
+      <div class="content-container">
+        <div class="section-container">
+          <div class="education-box">
+            <div class="education">
+              <h3>BE(UG) <i class="fas fa-graduation-cap"></i></h3>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Sri Ramakrishna
+                Engineering College,Coimbatore,Tamilnadu,India
+              </p>
+              <p>
+                <i class="far fa-calendar-alt"></i> July 2019 - May 2023|CGPA:
+                8.57
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-container">
+          <div class="education-box">
+            <div class="education">
+              <h3>HSC <i class="fas fa-graduation-cap"></i></h3>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> SRSI Matric Hr. Sec.
+                School, Karamadai,Coimbatore,Tamilnadu,india
+              </p>
+              <p>
+                <i class="far fa-calendar-alt"></i> June 2018 - March
+                2019|Percentage : 69.3 <i class="fas fa-percentage"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-container">
+          <div class="education-box">
+            <div class="education">
+              <h3>SSLC <i class="fas fa-graduation-cap"></i></h3>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> SRSI Matric Hr. Sec.
+                School, Karamadai,Coimbatore,Tamilnadu,india
+              </p>
+              <p>
+                <i class="far fa-calendar-alt"></i> June 2016 - March
+                2017|Percentage : 93 <i class="fas fa-percentage"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="ml-lg-5">
+      <h2>Contact Me</h2>
+      <hr />
+      <div class="content-container">
+        <div class="section-container">
+          <h3>Contact Details</h3>
+          <hr />
+          <div class="contact-form">
+            <address>
+              <p>
+                <i class="fas fa-map-marker-alt"></i
+                >7/7,Thimmampalayam,Karamadai-641104 , Coimbatore, Tamilnadu ,
+                India
+              </p>
+              <p>
+                <i class="fas fa-globe"></i>
+                <a
+                  href="https://www.linkedin.com/in/gharniyas-r-9bbb1a224"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn</a
+                >
+              </p>
+              <p><i class="fas fa-phone"></i> +91 8667582487</p>
+              <p>
+                <i class="far fa-envelope"></i>
+                <a
+                  href="mailto:gharnismart@gmail.com"
+                  target="_blank"
+                  rel="noopener"
+                  >Gmail</a
+                >
+              </p>
+              <p>
+                <i class="fab fa-github"></i>
+                <a
+                  href="https://github.com/gharniyas"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <div class="section-container">
+          <h3>Contact Me</h3>
+          <hr />
+          <div class="contact-form">
+            <form action="#" method="post" onsubmit="validateForm(event)">
+              <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Ping Me!</button>
+              <div class="form-error" id="form-error-message"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Gharniyas. All rights reserved.</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
